@@ -1,0 +1,17 @@
+# Chuan hoa dong ket (LF cho file van ban, CRLF cho file Windows)
+* text=auto eol=lf
+
+*.md      text eol=lf
+*.py      text eol=lf
+*.drawio  text eol=lf
+*.json    text eol=lf
+*.yml     text eol=lf
+*.yaml    text eol=lf
+*.txt     text eol=lf
+
+*.docx    binary
+*.png     binary
+*.jpg     binary
+*.jpeg    binary
+*.pdf     binary
+*.pptx    binary
