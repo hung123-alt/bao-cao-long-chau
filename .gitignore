@@ -1,0 +1,37 @@
+# ===== Báo cáo Word/PDF (ĐƯỢC commit — đây là nguồn chính) =====
+# Giữ nguyên docs/*.docx và docs/*.pdf trong repo.
+# Chỉ bỏ qua file tạm do Word tạo khi đang mở:
+~$*.docx
+~$*.doc
+~$*.pdf
+*.tmp
+
+# ===== Bản slide xuất từ PPT/PDF (sinh ra từ nội dung đã có trong repo) =====
+slides/*.pptx
+slides/*.ppt
+slides/*.key
+
+# ===== Công cụ & cache =====
+tools/__pycache__/
+tools/*.pyc
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# ===== Hệ điều hành / editor =====
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
+*.swp
+*~
+
+# ===== Nhật ký =====
+*.log
+
+# ===== Bản build =====
+build/
+dist/
+*.egg-info/
