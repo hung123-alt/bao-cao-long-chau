@@ -1,0 +1,2 @@
+PNG=hinh-2.16-hoat-dong-UC04.png
+DRAWIO_URL=https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Hinh_2_16.drawio&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1s0W_IRmxywtN6V0o__WdbeAMYfuTHARm%26export%3Ddownload

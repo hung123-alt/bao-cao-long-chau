@@ -1,0 +1,2 @@
+PNG=hinh-2.2-danh-muc-san-pham.png
+DRAWIO_URL=https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Hinh_2_2.drawio&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1j5or_TuA6ke1zDEm2T1uXl8BpEsJrzYA%26export%3Ddownload
