@@ -10,7 +10,7 @@ Trường Công nghệ Thông tin Phenikaa · GV hướng dẫn: **TS. Trương 
 [![Báo cáo](https://img.shields.io/badge/báo%20cáo-40%20hình-2563eb?style=flat-square)](diagrams/png/)
 [![UML](https://img.shields.io/badge/sơ%20đồ-UML-8b5cf6?style=flat-square)](diagrams/)
 [![CSDL](https://img.shields.io/badge/CSDL-35%20bảng-0ea5e9?style=flat-square)](docs/BaoCao_LongChau_PTTKPM.md)
-[![UseCase](https://img.shields.io/badge/Use%20Case-27%20UC-f59e0b?style=flat-square)](diagrams/drawio/Hinh_1_1_Bieu_do_Use_Case.drawio)
+[![UseCase](https://img.shields.io/badge/Use%20Case-27%20UC-f59e0b?style=flat-square)](diagrams/png/01-phan-1-yeu-cau/hinh-1.1-use-case.png)
 [![Yêu cầu](https://img.shields.io/badge/yêu%20cầu-52%20FR%20%2B%2018%20NFR-10b981?style=flat-square)](reference/FACTS.md)
 [![License](https://img.shields.io/badge/license-MIT-green?style=flat-square)](LICENSE)
 
@@ -207,8 +207,7 @@ bao-cao-long-chau/
 │   └── TAI_LIEU_THAM_KHAO.md
 │
 ├── 📁 diagrams/                      # ★ Toàn bộ sơ đồ UML
-│   ├── drawio/                      # Nguồn .drawio (13 file, mở/sửa được)
-│   └── png/                         # Ảnh xuất (40 file, theo 3 phần)
+│   └── png/                         # Ảnh (39 file theo 3 phần) và file link draw.io đi kèm
 │       ├── 01-phan-1-yeu-cau/
 │       ├── 02-phan-2-phan-tich/
 │       └── 03-phan-3-thiet-ke/
@@ -220,15 +219,14 @@ bao-cao-long-chau/
 │   └── FACTS.md
 │
 └── 📁 tools/                         # Script tự động hoá
-    ├── docx_to_md.py                 # DOCX → Markdown
-    └── export_drawio_to_png.py       # drawio → PNG
+    └── docx_to_md.py                 # DOCX → Markdown
 ```
 
 ---
 
 ## 🛠️ Công cụ
 
-Repo đi kèm 2 script để bạn tái tạo lại tài liệu khi chỉnh sửa:
+Repo đi kèm script để chuyển báo cáo Word sang Markdown:
 
 ### Chuyển báo cáo Word → Markdown
 
@@ -237,42 +235,11 @@ pip install python-docx
 python tools/docx_to_md.py
 ```
 
-### Xuất lại ảnh từ nguồn draw.io
-
-```bash
-# Cần cài draw.io Desktop: https://www.drawio.com
-python tools/export_drawio_to_png.py --check     # kiểm tra CLI
-python tools/export_drawio_to_png.py             # xuất toàn bộ
-python tools/export_drawio_to_png.py --only ERD  # chỉ xuất nhóm ERD
-```
-
 ---
 
 ## 🧭 Mở & chỉnh sửa sơ đồ
 
-<details>
-<summary><b>Cách 1 — Mở trực tiếp trên web (không cài gì)</b></summary>
-
-1. Mở [app.diagrams.net](https://app.diagrams.net/)
-2. **File → Open From → Device**
-3. Chọn file `.drawio` trong thư mục `diagrams/drawio/`
-
-> Nhấn **Ctrl/Cmd + Shift + S** để xuất ảnh PNG khi cần chèn vào slide.
-
-</details>
-
-<details>
-<summary><b>Cách 2 — Clone & chỉnh sửa cục bộ</b></summary>
-
-```bash
-git clone git@github.com:hung123-alt/bao-cao-long-chau.git
-cd bao-cao-long-chau
-```
-
-Mở bằng [draw.io Desktop](https://www.drawio.com) hoặc VS Code extension
-[Draw.io Integration](https://marketplace.visualstudio.com/items?itemName=hediet.vscode-drawio).
-
-</details>
+Mỗi ảnh PNG trong ba phần có một file `<tên-ảnh>.png.drawio-link.txt` đặt cạnh ảnh. Trong file, trường `DRAWIO_URL` đang để trống để bổ sung URL tương ứng sau.
 
 ---
 
