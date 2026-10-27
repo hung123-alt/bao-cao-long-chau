@@ -14,7 +14,7 @@ Trường Công nghệ Thông tin Phenikaa · GV hướng dẫn: **TS. Trương 
 [![Yêu cầu](https://img.shields.io/badge/yêu%20cầu-52%20FR%20%2B%2018%20NFR-10b981?style=flat-square)](reference/FACTS.md)
 [![License](https://img.shields.io/badge/license-MIT-green?style=flat-square)](LICENSE)
 
-[**Báo cáo đầy đủ**](docs/BaoCao_LongChau_PTTKPM.md) · [**Mã nguồn DOCX**](docs/BaoCao_LongChau_PTTKPM.docx) · [**Danh mục hình**](docs/DANH_MUC_HINH.md) · [**Đặc tả slide**](slides/PROMPT_TAO_SLIDE_LONG_CHAU.md) · [**Sự thật đã kiểm chứng**](reference/FACTS.md)
+[**Báo cáo đầy đủ**](docs/BaoCao_LongChau_PTTKPM.md) · [**Mã nguồn DOCX**](docs/BaoCao_LongChau_PTTKPM.docx) · [**Danh mục hình**](docs/DANH_MUC_HINH.md) · [**Kịch bản thuyết trình**](docs/KICH_BAN_THUYET_TRINH.docx) · [**Đặc tả slide**](slides/PROMPT_TAO_SLIDE_LONG_CHAU.md) · [**Sự thật đã kiểm chứng**](reference/FACTS.md)
 
 </div>
 
@@ -203,6 +203,7 @@ bao-cao-long-chau/
 │   ├── BaoCao_LongChau_PTTKPM.md     # ★ Bản Markdown (đọc online)
 │   ├── BaoCao_LongChau_Phan3_Design.docx
 │   ├── DANH_MUC_HINH.md             # ★ Bảng tra cứu 40 hình
+│   ├── KICH_BAN_THUYET_TRINH.docx   # ★ Kịch bản thuyết trình 30 slide
 │   └── TAI_LIEU_THAM_KHAO.md
 │
 ├── 📁 diagrams/                      # ★ Toàn bộ sơ đồ UML
